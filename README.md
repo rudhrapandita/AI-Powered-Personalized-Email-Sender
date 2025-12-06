@@ -28,15 +28,17 @@ Quick Start
 ```
 bash
 # Clone the repo
-git clone https://github.com/rudhrapandita/ai-email-sender.git
-cd ai-email-sender
+git clone https://github.com/rudhrapandita/AI-Powered-Personalized-Email-Sender
+cd AI-Powered-Personalized-Email-Sender
 ```
 # Install dependencies
 ```pip install -r requirements.txt```
 # Set Up Environment
 ```Copy the example env file:
  Bashcp .env.example .env
+```
 Edit .env with your credentials:
+```
 textSENDER_EMAIL=your_email@gmail.com
 SENDER_PASSWORD=your_app_password
 XAI_API_KEY=your_xai_api_key
@@ -57,7 +59,7 @@ charlie@home.com,Charlie
 ```
 
 5. Run the Script
-```Bashpython src/email_sender.py```
+```Bashpython /email_sender.py```
 
 Prompts for: 
 ```CSV path, subject template (e.g., "Update for {name}"), topic (e.g., "Exciting AI project news").```
